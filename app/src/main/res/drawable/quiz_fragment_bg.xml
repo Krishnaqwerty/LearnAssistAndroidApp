@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Gradient background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#F7CFD8"
+                android:centerColor="#F4F8D3"
+                android:endColor="#A6D6D6"
+                android:angle="135"/>
+        </shape>
+    </item>
+
+    <!-- Top-left orb animation -->
+    <item android:left="20dp" android:top="30dp">
+        <bitmap android:src="@drawable/anim_purple" />
+    </item>
+
+    <!-- Bottom-right orb animation -->
+    <item android:right="30dp" android:bottom="20dp">
+        <bitmap android:drawable="@drawable/anim_blue" />
+    </item>
+
+</layer-list>

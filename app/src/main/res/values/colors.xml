@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="nav_active">#6200EE</color> <!-- Vibrant purple (active) -->
+    <color name="nav_inactive">#8e8e93</color> <!-- Gray (inactive) -->
+    <color name="light_blue">#87CEEB</color> <!-- Light blue -->
+    <color name="teal_700">#008080</color> <!-- Teal 700 -->
+
+</resources>

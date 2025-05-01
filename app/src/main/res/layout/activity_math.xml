@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <ProgressBar
+        android:id="@+id/progressBarTimer"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:progressDrawable="@drawable/progress_bar"
+        android:max="30"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/questionCounter"
+        android:layout_below="@id/progressBarTimer"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_1_5"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_below="@id/questionCounter"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_goes_here"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/optionContainer"
+        android:layout_below="@id/questionText"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/optionA"
+            android:hint="@string/option_a"
+            style="@style/QuizOptionButton"
+            />
+        <Button
+            android:id="@+id/optionB"
+            android:hint="@string/option_b"
+            style="@style/QuizOptionButton"/>
+        <Button
+            android:id="@+id/optionC"
+            android:hint="@string/option_c"
+            style="@style/QuizOptionButton"/>
+        <Button
+            android:id="@+id/optionD"
+            android:hint="@string/option_d"
+            style="@style/QuizOptionButton"/>
+    </LinearLayout>
+
+</RelativeLayout>

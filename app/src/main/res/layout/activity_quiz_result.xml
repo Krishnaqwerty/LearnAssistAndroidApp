@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/congratsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/congratulations"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_scored_4_5"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/black"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1"
+        android:rating="2"
+        android:isIndicator="true"
+        android:layout_marginBottom="24dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"/>
+
+    <Button
+        android:id="@+id/backToHomeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_to_home"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/teal_700"/>
+</LinearLayout>

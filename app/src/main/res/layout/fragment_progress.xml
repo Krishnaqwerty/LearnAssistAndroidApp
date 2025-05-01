@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F3F6FB">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:spacing="12dp">
+
+        <!-- Repeat for each subject -->
+        <include layout="@layout/progress_card" />
+        <include layout="@layout/card_physics" />
+        <include layout="@layout/card_chemistry" />
+        <include layout="@layout/card_biology" />
+
+    </LinearLayout>
+</ScrollView>

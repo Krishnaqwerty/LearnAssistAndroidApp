@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/box_physics"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="12dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardElevation="6dp"
+    card_view:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/math_icon"
+            android:src="@drawable/ohm"
+         />
+
+        <TextView
+            android:id="@+id/text_math"
+            android:layout_width="300dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/physics"
+            android:textColor="#333333"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

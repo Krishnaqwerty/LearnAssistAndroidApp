@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "575566674125",
+    "project_id": "learnassist-c8532",
+    "storage_bucket": "learnassist-c8532.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575566674125:android:9d5d58c4d26d08442fd184",
+        "android_client_info": {
+          "package_name": "com.example.learnassist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575566674125-cors485965pcvolqt8uhkvc740f0rrir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU33KGShAuJMb-EBtV07-Um-VjbB97ajk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575566674125-cors485965pcvolqt8uhkvc740f0rrir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
